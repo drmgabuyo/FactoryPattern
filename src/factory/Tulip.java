@@ -1,6 +1,6 @@
 package factory;
 
-public class Cat implements  Pet{
+public class Ca implements  Pet{
     private Integer noOfLives;
 
     public Integer getNoOfLives() {
