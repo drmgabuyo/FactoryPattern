@@ -1,23 +1,23 @@
 package factory;
 
-public class Dog implements  Pet{
-     private String breed;
+public class Rose implements  Flower{
+     private String color;
 
-     public String getBreed() {
-          return breed;
+     public String getColor() {
+          return color;
      }
 
-     public void setBreed(String breed) {
-          this.breed = breed;
-     }
-
-     @Override
-     public String makeSound() {
-          return "Aw, aw, aw!";
+     public void setColor(String color) {
+          this.color = color;
      }
 
      @Override
-     public String play() {
-          return "plays catch and fetch!";
+     public String blooming() {
+          return "The rose is in its full bloom!";
+     }
+
+     @Override
+     public String fragrance() {
+          return "smells nice!";
      }
 }
