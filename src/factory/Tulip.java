@@ -12,11 +12,11 @@ public class Tulip implements  FLower{
     }
     @Override
     public String bloom() {
-        return "The flower is blooming!";
+        return "is not blooming!";
     }
 
     @Override
     public String fragrance() {
-        return "The flower smells good!";
+        return "smells weird!";
     }
 }
