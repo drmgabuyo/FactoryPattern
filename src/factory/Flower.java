@@ -1,6 +1,6 @@
 package factory;
 
-public interface Pet {
-    public String makeSound();
-    public String play();
+public interface Flower {
+    public String bloom();
+    public String fragrance();
 }
