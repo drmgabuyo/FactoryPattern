@@ -11,3 +11,4 @@ Refer to the UML Class Diagram
 
 ## UML Class Diagram
 
+<img src="flower.png">
