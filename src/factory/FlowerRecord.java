@@ -1,31 +1,31 @@
 package factory;
 
-public class PetRecord {
-    private String petId;
-    private String petName;
-    private Pet pet;
+public class FlowerRecord {
+    private String flowerId;
+    private String flowerName;
+    private Flower flower;
 
-    public String getPetId() {
-        return petId;
+    public String getFlowerId() {
+        return flowerId;
     }
 
-    public void setPetId(String petId) {
-        this.petId = petId;
+    public void setFlowerId(String flowerId) {
+        this.flowerId = flowerId;
     }
 
-    public String getPetName() {
-        return petName;
+    public String getFlowerName() {
+        return flowerName;
     }
 
-    public void setPetName(String petName) {
-        this.petName = petName;
+    public void setFlowerName(String flowerName) {
+        this.flowerName = flowerName;
     }
 
-    public Pet getPet() {
-        return pet;
+    public Flower getFlower() {
+        return flower;
     }
 
-    public void setPet(Pet pet) {
-        this.pet = pet;
+    public void setFlower(Flower flower) {
+        this.flower = flower;
     }
 }
