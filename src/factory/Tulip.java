@@ -1,22 +1,22 @@
 package factory;
 
 public class Tulip implements  FLower{
-    private Integer noOfLives;
+    private Integer noOfPetals;
 
-    public Integer getNoOfLives() {
-        return noOfLives;
+    public Integer getNoOfPetals() {
+        return noOfPetals;
     }
 
-    public void setNoOfLives(Integer noOfLives) {
-        this.noOfLives = noOfLives;
+    public void setNoOfPetals(Integer noOfPetals) {
+        this.noOfPetals = noOfPetals;
     }
     @Override
-    public String makeSound() {
-        return "Meow, meow, meow!";
+    public String bloom() {
+        return "The flower is blooming!";
     }
 
     @Override
-    public String play() {
-        return "attack moving objects!";
+    public String fragrance() {
+        return "The flower smells good!";
     }
 }
