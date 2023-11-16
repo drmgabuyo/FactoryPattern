@@ -1,6 +1,6 @@
 package factory;
 
-public class Ca implements  Pet{
+public class Tulip implements  FLower{
     private Integer noOfLives;
 
     public Integer getNoOfLives() {
