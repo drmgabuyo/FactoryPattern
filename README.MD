@@ -1,11 +1,11 @@
 ## Problem Scenario
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
+Implement factory design pattern using Flower as the factory interface. The interface implements two methods: bloom() and fragrance().
 
-Dog and Cat are concrete objects that implements Pet interface.
+Rose and Tulip are concrete objects that implements Flower interface.
 
-PetRecord holds attributes such as petId, petName, and Pet.
+FlowerRecord holds attributes such as flowerId, flowerName, and Flower.
 
-Clinic would be the client object.
+Customer would be the client object.
 
 Refer to the UML Class Diagram
 
